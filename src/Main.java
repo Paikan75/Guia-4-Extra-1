@@ -21,5 +21,6 @@ public class Main {
         Alquiler alquilerYate = new Alquiler("Pedro", "56789123", fechaAlquiler, fechaDevolucion, 3, yate);
         double precioYate = alquilerYate.calcularPrecio();
         System.out.println("Precio del alquiler de un yate de lujo: $" + precioYate);
+        
     }
 }
